@@ -9,7 +9,6 @@ app.get("/", (req, res) => {
     res.status(200).send({message: 'OK'});
 })
 
-
 const PORT = process.env.PORT
 console.log(PORT);
 
